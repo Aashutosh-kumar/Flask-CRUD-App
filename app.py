@@ -13,6 +13,10 @@ app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://root:''@localhost/flaskreact'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db=SQLAlchemy(app)
 
+
+
+#not to seee this msg
+
 ma=Marshmallow(app)
 
 class Articles(db.Model):
